@@ -34,3 +34,8 @@ default['activemq']['install_java'] = true
 # set to 'TLSv1,TLSv1.1,TLSv1.2'
 # to disable sslv3 and protect against poodle
 default['activemq']['transport_protocols'] = nil
+
+default['activemq']['dataDirectory'] = '/opt/data'
+default['activemq']['persistent'] = true
+default['activemq']['schedulerSupport'] = true
+default['activemq']['networkConnector'] = ''
