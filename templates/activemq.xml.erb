@@ -103,7 +103,7 @@
         </systemUsage>
 
         <networkConnectors>
-            <networkConnector uri="<%= node['activemq']['networkConnector'] %>" />
+            <networkConnector uri="static:(<%= node['activemq']['networkConnector'] %>)" />
         </networkConnectors>
 
         <!--
